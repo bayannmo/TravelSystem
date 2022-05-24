@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="251Project111final 4 5">
+  <ClassDiagramComponents>
+    <Class name="ConfirmTicket" package="pkg251project" visibility="public" xPosition="-321.0" yPosition="20.0">
+      <Fields>
+        <Field name="b" type="Booking" visibility="package" isStatic="true"/>
+        <Field name="Reservation" type="ArrayList&lt;Booking&gt;" visibility="package" isStatic="true"/>
+        <Field name="f" type="ArrayList&lt;Flights&gt;" visibility="package" isStatic="true"/>
+        <Field name="fursan" type="boolean" visibility="package" isStatic="true"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea2" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Booking" name="b"/>
+          <Argument type="boolean" name="fursan"/>
+          <Argument type="ArrayList&lt;Flights&gt;" name="f"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel10MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="GuidanceInfo" package="pkg251project" visibility="public" xPosition="3767.0" yPosition="1376.0">
+      <Fields>
+        <Field name="cityGuide" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="cityGuide"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getCityGuide" returnType="String" visibility="public"/>
+        <Method name="setCityGuide" returnType="void" visibility="public">
+          <Argument type="String" name="cityGuide"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="getPass" package="pkg251project" visibility="public" xPosition="775.0" yPosition="75.0">
+      <Fields>
+        <Field name="counter" type="int" visibility="package"/>
+        <Field name="username11" type="String" visibility="package"/>
+        <Field name="back" type="javax.swing.JButton" visibility="private"/>
+        <Field name="edit1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel20" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel21" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel30" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel31" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel6" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="name" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="passworlabel" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="backActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="countLines" returnType="void" visibility="package"/>
+        <Method name="readFile" returnType="void" visibility="package"/>
+        <Method name="checkData" returnType="boolean" visibility="package">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="edit1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel30MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel30MouseEntered" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel21MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel20MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel13MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MyProfile" package="pkg251project" visibility="public" xPosition="2261.0" yPosition="4410.0">
+      <Fields>
+        <Field name="username11" type="String" visibility="private"/>
+        <Field name="counter" type="int" visibility="package"/>
+        <Field name="travlog" type="Traveler" visibility="package" isStatic="true"/>
+        <Field name="edit" type="javax.swing.JButton" visibility="private"/>
+        <Field name="email" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel26" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="out" type="javax.swing.JButton" visibility="private"/>
+        <Field name="phone" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="username" type="javax.swing.JLabel" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Traveler" name="t"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="phoneActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="readFile" returnType="void" visibility="package"/>
+        <Method name="countLines" returnType="void" visibility="package"/>
+        <Method name="editActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="outActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel26MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel14MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel11MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel8MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Guidance" package="pkg251project" visibility="public" xPosition="954.0" yPosition="1177.0">
+      <Fields>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton6" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel16" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel27" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel8" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jLabel16MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel27MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel29MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton6ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MainMenu" package="pkg251project" visibility="public" xPosition="1882.0" yPosition="578.0">
+      <Fields>
+        <Field name="travlog" type="Traveler" visibility="package" isStatic="true"/>
+        <Field name="requiredf" type="ArrayList&lt;Flights&gt;" visibility="package" isStatic="true"/>
+        <Field name="countr" type="int" visibility="package" isStatic="true"/>
+        <Field name="city" type="String" visibility="package" isStatic="true"/>
+        <Field name="bookings" type="ArrayList&lt;Booking&gt;" visibility="package" isStatic="true"/>
+        <Field name="f" type="ArrayList&lt;Flights&gt;" visibility="package" isStatic="true"/>
+        <Field name="h" type="ArrayList&lt;Hotels&gt;" visibility="package" isStatic="true"/>
+        <Field name="p" type="ArrayList&lt;Places&gt;" visibility="package" isStatic="true"/>
+        <Field name="w" type="ArrayList&lt;Weather&gt;" visibility="package" isStatic="true"/>
+        <Field name="Search" type="javax.swing.JButton" visibility="private"/>
+        <Field name="SearchFlights" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="arriv" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="dest" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton4" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton5" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel16" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel17" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel26" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTabbedPane1" type="javax.swing.JTabbedPane" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Traveler" name="t"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="AddFlight" returnType="void" visibility="private" isStatic="true">
+          <Argument type="Scanner" name="input"/>
+          <Argument type="ArrayList&lt;Flights&gt;" name="f"/>
+        </Method>
+        <Method name="AddHotels" returnType="void" visibility="private" isStatic="true">
+          <Argument type="Scanner" name="input"/>
+          <Argument type="ArrayList&lt;Hotels&gt;" name="h"/>
+        </Method>
+        <Method name="AddPlaces" returnType="void" visibility="private" isStatic="true">
+          <Argument type="Scanner" name="input"/>
+          <Argument type="ArrayList&lt;Places&gt;" name="p"/>
+        </Method>
+        <Method name="AddWeather" returnType="void" visibility="private" isStatic="true">
+          <Argument type="Scanner" name="input"/>
+          <Argument type="ArrayList&lt;Weather&gt;" name="w"/>
+        </Method>
+        <Method name="initComponents" returnType="void" visibility="private"/>
+        <Method name="arrivActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="destActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel7MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton4ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton5ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="SearchActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel11MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel26MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel14MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel8MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="loadDataFromInputTxxt" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Booking" package="pkg251project" visibility="public" xPosition="3246.0" yPosition="35.0">
+      <Fields>
+        <Field name="Flight" type="Flights" visibility="private"/>
+        <Field name="bookinID" type="String" visibility="private"/>
+        <Field name="traveler" type="Traveler" visibility="private"/>
+        <Field name="totalPrice" type="double" visibility="private"/>
+        <Field name="Vat" type="double" visibility="private"/>
+        <Field name="fursan" type="boolean" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="Flights" name="flight"/>
+          <Argument type="Traveler" name="traveler"/>
+          <Argument type="double" name="totalPrice"/>
+          <Argument type="boolean" name="fursan"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getBookinID" returnType="String" visibility="public"/>
+        <Method name="getFlight" returnType="Flights" visibility="public"/>
+        <Method name="getTraveler" returnType="Traveler" visibility="public"/>
+        <Method name="getTotalPricae" returnType="double" visibility="public"/>
+        <Method name="setBookinID" returnType="void" visibility="public">
+          <Argument type="String" name="bookinID"/>
+        </Method>
+        <Method name="setFlight" returnType="void" visibility="public">
+          <Argument type="Flights" name="Flight"/>
+        </Method>
+        <Method name="setTraveler" returnType="void" visibility="public">
+          <Argument type="Traveler" name="traveler"/>
+        </Method>
+        <Method name="setTotalPrica" returnType="void" visibility="public">
+          <Argument type="double" name="totalPrice"/>
+        </Method>
+        <Method name="calculatePrice" returnType="double" visibility="public"/>
+        <Method name="calculateVat" returnType="double" visibility="public"/>
+        <Method name="discount" returnType="double" visibility="public">
+          <Argument type="boolean" name="fursan"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Place" package="pkg251project" visibility="public" xPosition="4358.0" yPosition="20.0">
+      <Fields>
+        <Field name="p" type="ArrayList&lt;Places&gt;" visibility="package" isStatic="true"/>
+        <Field name="pp" type="ArrayList&lt;Places&gt;" visibility="package" isStatic="true"/>
+        <Field name="counter" type="int" visibility="package"/>
+        <Field name="Search" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane4" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea3" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="jTextArea4" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="ArrayList&lt;Places&gt;" name="p"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="fillArr" returnType="void" visibility="private">
+          <Argument type="ArrayList&lt;Places&gt;" name="p"/>
+        </Method>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel10MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="SearchActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Travelus" package="pkg251project" visibility="public" xPosition="74.0" yPosition="791.0">
+      <Fields>
+        <Field name="travlog" type="Traveler" visibility="package"/>
+        <Field name="counter" type="int" visibility="package"/>
+        <Field name="username11" type="String" visibility="package"/>
+        <Field name="gender" type="char" visibility="package"/>
+        <Field name="f" type="ArrayList&lt;Flights&gt;" visibility="package" isStatic="true"/>
+        <Field name="Strat" type="javax.swing.JButton" visibility="private"/>
+        <Field name="changePass" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="name" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="pass" type="javax.swing.JPasswordField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="ArrayList&lt;Flights&gt;" name="f"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="changePassMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="StratActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="checkData" returnType="boolean" visibility="package">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="passw"/>
+        </Method>
+        <Method name="setTravlog" returnType="void" visibility="public">
+          <Argument type="Traveler" name="travlog"/>
+        </Method>
+        <Method name="getTravlog" returnType="Traveler" visibility="public"/>
+        <Method name="readFile" returnType="void" visibility="package"/>
+        <Method name="countLines" returnType="void" visibility="package"/>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="passActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Weatherinfo" package="pkg251project" visibility="public" xPosition="1950.0" yPosition="1681.0">
+      <Fields>
+        <Field name="w" type="ArrayList&lt;Weather&gt;" visibility="package" isStatic="true"/>
+        <Field name="Search" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea3" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="ArrayList&lt;Weather&gt;" name="w"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel10MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="SearchActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Weather" package="pkg251project" visibility="public" xPosition="2468.0" yPosition="949.0">
+      <Fields>
+        <Field name="winter" type="String" visibility="package"/>
+        <Field name="summer" type="String" visibility="package"/>
+        <Field name="spring" type="String" visibility="package"/>
+        <Field name="autumn" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="city"/>
+          <Argument type="String" name="winter"/>
+          <Argument type="String" name="summer"/>
+          <Argument type="String" name="spring"/>
+          <Argument type="String" name="autumn"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Flights" package="pkg251project" visibility="public" xPosition="307.0" yPosition="4383.0">
+      <Fields>
+        <Field name="depDestination" type="String" visibility="private"/>
+        <Field name="arrivDestination" type="String" visibility="private"/>
+        <Field name="date" type="String" visibility="private"/>
+        <Field name="noOfSeat" type="int" visibility="private"/>
+        <Field name="price" type="double" visibility="private"/>
+        <Field name="depTime" type="String" visibility="private"/>
+        <Field name="arrivTime" type="String" visibility="private"/>
+        <Field name="duration" type="double" visibility="private"/>
+        <Field name="state" type="String" visibility="private"/>
+        <Field name="flightClass" type="String" visibility="private"/>
+        <Field name="flightID" type="String" visibility="private"/>
+        <Field name="vat" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="depDestination"/>
+          <Argument type="String" name="arrivDestination"/>
+          <Argument type="String" name="date"/>
+          <Argument type="int" name="noOfSeat"/>
+          <Argument type="double" name="price"/>
+          <Argument type="String" name="depTime"/>
+          <Argument type="String" name="arrivTime"/>
+          <Argument type="double" name="duration"/>
+          <Argument type="String" name="state"/>
+          <Argument type="String" name="flightClass"/>
+          <Argument type="String" name="flightID"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getFlightID" returnType="String" visibility="public"/>
+        <Method name="setFlightID" returnType="void" visibility="public">
+          <Argument type="String" name="flightID"/>
+        </Method>
+        <Method name="getDepDestination" returnType="String" visibility="public"/>
+        <Method name="getArrivDestination" returnType="String" visibility="public"/>
+        <Method name="getDate" returnType="String" visibility="public"/>
+        <Method name="getNoOfSeat" returnType="int" visibility="public"/>
+        <Method name="getPrice" returnType="double" visibility="public"/>
+        <Method name="getDepTime" returnType="String" visibility="public"/>
+        <Method name="getArrivTime" returnType="String" visibility="public"/>
+        <Method name="getDuration" returnType="double" visibility="public"/>
+        <Method name="isState" returnType="String" visibility="public"/>
+        <Method name="getFlightClass" returnType="String" visibility="public"/>
+        <Method name="setDepDestination" returnType="void" visibility="public">
+          <Argument type="String" name="depDestination"/>
+        </Method>
+        <Method name="setArrivDestination" returnType="void" visibility="public">
+          <Argument type="String" name="arrivDestination"/>
+        </Method>
+        <Method name="setDate" returnType="void" visibility="public">
+          <Argument type="String" name="date"/>
+        </Method>
+        <Method name="setNoOfSeat" returnType="void" visibility="public">
+          <Argument type="int" name="noOfSeat"/>
+        </Method>
+        <Method name="setPrice" returnType="void" visibility="public">
+          <Argument type="double" name="price"/>
+        </Method>
+        <Method name="setDepTime" returnType="void" visibility="public">
+          <Argument type="String" name="depTime"/>
+        </Method>
+        <Method name="setArrivTime" returnType="void" visibility="public">
+          <Argument type="String" name="arrivTime"/>
+        </Method>
+        <Method name="setDuration" returnType="void" visibility="public">
+          <Argument type="double" name="duration"/>
+        </Method>
+        <Method name="setState" returnType="void" visibility="public">
+          <Argument type="String" name="state"/>
+        </Method>
+        <Method name="setFlightClass" returnType="void" visibility="public">
+          <Argument type="String" name="flightClass"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Fav" package="pkg251project" visibility="public" xPosition="3717.0" yPosition="3689.0">
+      <Fields>
+        <Field name="favHotel" type="ArrayList&lt;Hotels&gt;" visibility="package" isStatic="true"/>
+        <Field name="favplace" type="ArrayList&lt;Places&gt;" visibility="package" isStatic="true"/>
+        <Field name="travlog" type="Traveler" visibility="package" isStatic="true"/>
+        <Field name="count" type="int" visibility="package" isStatic="true"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel26" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel3" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea2" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Traveler" name="t"/>
+          <Argument type="int" name="counte"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jLabel26MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel14MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel11MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel8MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Book" package="pkg251project" visibility="public" xPosition="5302.0" yPosition="629.0">
+      <Fields>
+        <Field name="travlog" type="Traveler" visibility="package" isStatic="true"/>
+        <Field name="counter" type="int" visibility="package" isStatic="true"/>
+        <Field name="Reservation" type="ArrayList&lt;Booking&gt;" visibility="package" isStatic="true"/>
+        <Field name="fursan" type="boolean" visibility="package"/>
+        <Field name="CVVLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="CardLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="DayL" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="ExpMonth" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="ExpYear" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="FemaleRadio" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="FirstLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="IdLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="LastLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="MaleRadio" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="MonthL" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="PhoneLable" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="YearL" type="javax.swing.JComboBox&lt;String&gt;" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup2" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup3" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup4" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup5" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel16" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel17" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel20" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jRadioButton3" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jRadioButton4" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="no" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="yes" type="javax.swing.JRadioButton" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Traveler" name="t"/>
+          <Argument type="ArrayList&lt;Booking&gt;" name="Reservation"/>
+          <Argument type="int" name="counter"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="FemaleRadioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="MaleRadioActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="MaleRadioMouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="IdLableActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel11MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel20MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="yesActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="checkInfo" returnType="boolean" visibility="package">
+          <Argument type="String" name="FirstName"/>
+          <Argument type="String" name="LastName"/>
+          <Argument type="String" name="ID"/>
+          <Argument type="String" name="Phone"/>
+          <Argument type="String" name="card"/>
+          <Argument type="String" name="CVV"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Places" package="pkg251project" visibility="public" xPosition="3704.0" yPosition="673.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="category" type="String" visibility="private"/>
+        <Field name="timeOpen" type="String" visibility="private"/>
+        <Field name="timeClosed" type="String" visibility="private"/>
+        <Field name="location" type="String" visibility="private"/>
+        <Field name="rating" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="city"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="category"/>
+          <Argument type="String" name="timeOpen"/>
+          <Argument type="String" name="timeClosed"/>
+          <Argument type="String" name="location"/>
+          <Argument type="String" name="rating"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="getCategory" returnType="String" visibility="public"/>
+        <Method name="setCategory" returnType="void" visibility="public">
+          <Argument type="String" name="category"/>
+        </Method>
+        <Method name="getTimeOpen" returnType="String" visibility="public"/>
+        <Method name="setTimeOpen" returnType="void" visibility="public">
+          <Argument type="String" name="timeOpen"/>
+        </Method>
+        <Method name="getTimeClosed" returnType="String" visibility="public"/>
+        <Method name="setTimeClosed" returnType="void" visibility="public">
+          <Argument type="String" name="timeClosed"/>
+        </Method>
+        <Method name="getLocation" returnType="String" visibility="public"/>
+        <Method name="setLocation" returnType="void" visibility="public">
+          <Argument type="String" name="location"/>
+        </Method>
+        <Method name="getRating" returnType="String" visibility="public"/>
+        <Method name="setRating" returnType="void" visibility="public">
+          <Argument type="String" name="rating"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Hotels" package="pkg251project" visibility="public" xPosition="4795.0" yPosition="2100.0">
+      <Fields>
+        <Field name="city" type="String" visibility="private"/>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="location" type="String" visibility="private"/>
+        <Field name="rating" type="String" visibility="private"/>
+        <Field name="price" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="package">
+          <Argument type="String" name="city"/>
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="location"/>
+          <Argument type="String" name="rating"/>
+          <Argument type="String" name="price"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getrating" returnType="String" visibility="public"/>
+        <Method name="getprice" returnType="String" visibility="public"/>
+        <Method name="getname" returnType="String" visibility="public"/>
+        <Method name="getlocation" returnType="String" visibility="public"/>
+        <Method name="setname" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setLocation" returnType="void" visibility="public">
+          <Argument type="String" name="location"/>
+        </Method>
+        <Method name="setPrice" returnType="void" visibility="public">
+          <Argument type="String" name="price"/>
+        </Method>
+        <Method name="getCity" returnType="String" visibility="public"/>
+        <Method name="setCity" returnType="void" visibility="public">
+          <Argument type="String" name="city"/>
+        </Method>
+        <Method name="getRating" returnType="String" visibility="public"/>
+        <Method name="setRating" returnType="void" visibility="public">
+          <Argument type="String" name="rating"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="hotelsInfo" package="pkg251project" visibility="public" xPosition="105.0" yPosition="1817.0">
+      <Fields>
+        <Field name="h" type="ArrayList&lt;Hotels&gt;" visibility="package" isStatic="true"/>
+        <Field name="hh" type="ArrayList&lt;Hotels&gt;" visibility="package" isStatic="true"/>
+        <Field name="Search" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane3" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane4" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea3" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="jTextArea4" type="javax.swing.JTextArea" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="ArrayList&lt;Hotels&gt;" name="h"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel10MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="SearchActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Traveler" package="pkg251project" visibility="public" xPosition="2064.0" yPosition="3495.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="gender" type="char" visibility="private"/>
+        <Field name="email" type="String" visibility="private"/>
+        <Field name="password" type="String" visibility="private"/>
+        <Field name="bookingId" type="String" visibility="private"/>
+        <Field name="phone" type="String" visibility="private"/>
+        <Field name="First" type="String" visibility="private"/>
+        <Field name="Last" type="String" visibility="private"/>
+        <Field name="id" type="String" visibility="private"/>
+        <Field name="Card" type="String" visibility="private"/>
+        <Field name="CVV" type="String" visibility="private"/>
+        <Field name="bookings" type="ArrayList&lt;Booking&gt;" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="char" name="gender"/>
+          <Argument type="String" name="email"/>
+          <Argument type="String" name="password"/>
+          <Argument type="String" name="phone"/>
+          <Argument type="ArrayList&lt;Booking&gt;" name="book"/>
+        </Constructor>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="String" name="email"/>
+          <Argument type="String" name="password"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setPhone" returnType="void" visibility="public">
+          <Argument type="String" name="phone"/>
+        </Method>
+        <Method name="getPhone" returnType="String" visibility="public"/>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setBookingId" returnType="void" visibility="public">
+          <Argument type="String" name="bookingId"/>
+        </Method>
+        <Method name="getBookingId" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="getGender" returnType="char" visibility="public"/>
+        <Method name="setGender" returnType="void" visibility="public">
+          <Argument type="char" name="gender"/>
+        </Method>
+        <Method name="getEmail" returnType="String" visibility="public"/>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="setEmail" returnType="void" visibility="public">
+          <Argument type="String" name="email"/>
+        </Method>
+        <Method name="setBookings" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Booking&gt;" name="bookings"/>
+        </Method>
+        <Method name="getBookings" returnType="ArrayList&lt;Booking&gt;" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Flight" package="pkg251project" visibility="public" xPosition="2875.0" yPosition="2276.0">
+      <Fields>
+        <Field name="travlog" type="Traveler" visibility="package" isStatic="true"/>
+        <Field name="f" type="ArrayList&lt;Flights&gt;" visibility="package" isStatic="true"/>
+        <Field name="countr" type="int" visibility="package" isStatic="true"/>
+        <Field name="book" type="javax.swing.JButton" visibility="private"/>
+        <Field name="book1" type="javax.swing.JButton" visibility="private"/>
+        <Field name="buttonGroup1" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup2" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup3" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup4" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup5" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="buttonGroup6" type="javax.swing.ButtonGroup" visibility="private"/>
+        <Field name="jInternalFrame1" type="javax.swing.JInternalFrame" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel18" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel19" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel28" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel29" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel2" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel5" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jScrollPane1" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jScrollPane2" type="javax.swing.JScrollPane" visibility="private"/>
+        <Field name="jTextArea1" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="jTextArea2" type="javax.swing.JTextArea" visibility="private"/>
+        <Field name="jToggleButton1" type="javax.swing.JToggleButton" visibility="private"/>
+        <Field name="menu1" type="java.awt.Menu" visibility="private"/>
+        <Field name="menu2" type="java.awt.Menu" visibility="private"/>
+        <Field name="menuBar1" type="java.awt.MenuBar" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Traveler" name="t"/>
+          <Argument type="ArrayList&lt;Flights&gt;" name="ff"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="bookActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="book1ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel28MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel19MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel18MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel10MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SignUp" package="pkg251project" visibility="public" xPosition="74.0" yPosition="2617.0">
+      <Fields>
+        <Field name="username11" type="String" visibility="private"/>
+        <Field name="counter" type="int" visibility="package"/>
+        <Field name="counter1" type="int" visibility="public"/>
+        <Field name="write" type="BufferedWriter" visibility="package"/>
+        <Field name="p" type="JComboBox" visibility="package" isStatic="true"/>
+        <Field name="email" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="female" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="jButton2" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jButton3" type="javax.swing.JButton" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel10" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel11" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel12" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel13" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel14" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel15" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel26" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel4" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel5" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel6" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel7" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel8" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel9" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jPanel3" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="male" type="javax.swing.JRadioButton" visibility="private"/>
+        <Field name="password" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="phone" type="javax.swing.JTextField" visibility="private"/>
+        <Field name="username" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="femaleActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="maleActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="readFile" returnType="void" visibility="package"/>
+        <Method name="addData" returnType="void" visibility="package">
+          <Argument type="Traveler" name="trav"/>
+          <Argument type="String" name="pass"/>
+        </Method>
+        <Method name="checkData" returnType="void" visibility="package">
+          <Argument type="Traveler" name="trav"/>
+          <Argument type="String" name="pass1"/>
+        </Method>
+        <Method name="countLines" returnType="void" visibility="package"/>
+        <Method name="checkSignUp" returnType="boolean" visibility="package">
+          <Argument type="String" name="username"/>
+          <Argument type="String" name="email"/>
+          <Argument type="String" name="password"/>
+          <Argument type="String" name="phone1"/>
+        </Method>
+        <Method name="jButton2ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jButton3ActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="passwordActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel26MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel14MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel11MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="jLabel8MouseClicked" returnType="void" visibility="private">
+          <Argument type="java.awt.event.MouseEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="travlog" source="pkg251project.Travelus" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.MainMenu" target="pkg251project.Places" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="bookings" source="pkg251project.Traveler" target="pkg251project.Booking" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Booking&gt;"/>
+    <HasRelation name="favHotel" source="pkg251project.Fav" target="pkg251project.Hotels" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Hotels&gt;"/>
+    <HasRelation name="f" source="pkg251project.MainMenu" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Flights&gt;"/>
+    <HasRelation name="favplace" source="pkg251project.Fav" target="pkg251project.Places" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Places&gt;"/>
+    <HasRelation name="f" source="pkg251project.Travelus" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Flights&gt;"/>
+    <IsRelation name="is" source="pkg251project.Weather" target="pkg251project.GuidanceInfo"/>
+    <HasRelation name="pp" source="pkg251project.Place" target="pkg251project.Places" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Places&gt;"/>
+    <HasRelation name="travlog" source="pkg251project.MainMenu" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="traveler" source="pkg251project.Booking" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="w" source="pkg251project.Weatherinfo" target="pkg251project.Weather" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Weather&gt;"/>
+    <HasRelation name="w" source="pkg251project.MainMenu" target="pkg251project.Weather" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Weather&gt;"/>
+    <HasRelation name="hh" source="pkg251project.hotelsInfo" target="pkg251project.Hotels" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Hotels&gt;"/>
+    <HasRelation name="travlog" source="pkg251project.Flight" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f" source="pkg251project.Flight" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Flights&gt;"/>
+    <UseRelation source="pkg251project.MainMenu" target="pkg251project.Hotels" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.Booking" target="pkg251project.Flight" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="pkg251project.Hotels" target="pkg251project.GuidanceInfo"/>
+    <HasRelation name="h" source="pkg251project.hotelsInfo" target="pkg251project.Hotels" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Hotels&gt;"/>
+    <HasRelation name="bookings" source="pkg251project.MainMenu" target="pkg251project.Booking" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Booking&gt;"/>
+    <UseRelation source="pkg251project.Travelus" target="pkg251project.Traveler" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.MainMenu" target="pkg251project.Flight" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="p" source="pkg251project.Place" target="pkg251project.Places" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Places&gt;"/>
+    <IsRelation name="is" source="pkg251project.Places" target="pkg251project.GuidanceInfo"/>
+    <HasRelation name="p" source="pkg251project.MainMenu" target="pkg251project.Places" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Places&gt;"/>
+    <UseRelation source="pkg251project.Place" target="pkg251project.Places" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Flight" source="pkg251project.Booking" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Reservation" source="pkg251project.ConfirmTicket" target="pkg251project.Booking" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Booking&gt;"/>
+    <UseRelation source="pkg251project.SignUp" target="pkg251project.Traveler" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.MainMenu" target="pkg251project.Weather" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="b" source="pkg251project.ConfirmTicket" target="pkg251project.Booking" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="h" source="pkg251project.MainMenu" target="pkg251project.Hotels" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Hotels&gt;"/>
+    <HasRelation name="f" source="pkg251project.ConfirmTicket" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Flights&gt;"/>
+    <HasRelation name="travlog" source="pkg251project.Fav" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.Traveler" target="pkg251project.Book" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="travlog" source="pkg251project.MyProfile" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="pkg251project.Booking" target="pkg251project.Traveler" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="requiredf" source="pkg251project.MainMenu" target="pkg251project.Flights" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Flights&gt;"/>
+    <HasRelation name="travlog" source="pkg251project.Book" target="pkg251project.Traveler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Reservation" source="pkg251project.Book" target="pkg251project.Booking" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Booking&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
